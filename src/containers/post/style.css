@@ -1,0 +1,44 @@
+.post {
+  background-color: white;
+  max-width: 600px;
+  width: 90vw;
+  padding: 16px;
+}
+.post__header {
+  display: flex;
+  justify-content: space-between;
+}
+.post__headerLeft {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.post__headerProfilePic {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+}
+.post__headerLeftUserName{
+    font-family: "Poppins", sans-serif;
+    margin-left: 8px;
+}
+.post__headerRightDeleteBtn{
+    border: none;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+.post__headerRightDeleteBtn:focus{
+    outline: none;
+}
+.post__headerRightDeleteBtn:hover{
+    cursor: pointer;
+}
+.post__PhotoImage{
+    width: 100%;
+    margin: 16px 0px;
+}
+.post__UserName{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    margin-right: 6px;
+}
